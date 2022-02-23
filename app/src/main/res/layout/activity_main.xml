@@ -4,12 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:background="@drawable/mainbg"
-    android:layout_height="match_parent"
-<<<<<<< HEAD
-    tools:context=".view.Activities.MainActivity">
-=======
-    tools:context=".MainActivity">
->>>>>>> origin/main
+    android:layout_height="match_parent">
     <FrameLayout
         android:layout_width="match_parent"
         android:id="@+id/FragmentContainer"
@@ -17,14 +12,9 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:id="@+id/mainRelativeLayout"
-
         android:layout_height="match_parent">
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
-<<<<<<< HEAD
-=======
-            android:layout_below="@+id/AppBar"
->>>>>>> origin/main
             android:id="@+id/RecView"
             android:layout_height="wrap_content">
         </androidx.recyclerview.widget.RecyclerView>
